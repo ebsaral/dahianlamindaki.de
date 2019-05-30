@@ -61,17 +61,46 @@
     </div> 
 </body>
 <script type="text/javascript">
-    function dedeyesahipcikalim() {
-        if(window.location.href.includes("dahianlamindaki")) {
-            window.location.href = "http://www.dededededededededededededededededededededededededededededede.de/";
-        }
-    }
+if(window.location.href.includes("dahianlamindaki")) {
+    window.location.href = "http://www.dededededededededededededededededededededededededededededede.de/";
+} else {
+    var time = 1500;
+    var main = ["dede", "dedeci"]
+    var main_first_selected = false;
+    var t = null;
+    var c = null;
+    var i = 1;
 
-    setTimeout(function() {
-        dedeyesahipcikalim(); 
-        }, 
-        3000
-    );
+    var finish_iiiiim = function() {
+        time = 1500;
+        history.replaceState(null, null, main[1].concat("i".repeat(i)).concat("m"));
+        clearInterval(c)
+        i = 1;
+        t = setInterval(dedeci, time);
+    };
+    var iiiiim = function() {
+        history.replaceState(null, null, main[1].concat("i".repeat(i)));
+        i = i + 1;
+        if(i == 15) {
+            clearInterval(c);
+            c = setInterval(finish_iiiiim, time)
+        }
+    };
+
+    var dedeci = function() {
+        if(main_first_selected) {
+            history.replaceState(null, null, main[1]);
+            clearInterval(t);
+            main_first_selected = false;
+            time = 100;
+            c = setInterval(iiiiim, time);
+        } else {
+            history.replaceState(null, null, main[0])
+            main_first_selected = true;
+        }
+    };
+    t = setInterval(iiiiim, 100);
+};
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="jquery-psycar.js"></script>
