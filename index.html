@@ -15,13 +15,6 @@
     <meta charset="utf-8" />
     <title>dahianlamindaki.de</title>
     <style type="text/css">
-    html, body {
-        height: 80%;
-        margin: 0px;
-        padding: 0px;
-        background: #fff;
-    }
-
     .dahi {
         empty-cells: unset;
     }
@@ -37,11 +30,6 @@
 
     .dahianlamindakide {
         font-size: 126px;
-        margin-top: -100px;
-    }
-
-    .de-ayri {
-        margin-top: -60px;
     }
 
     .yarraam {
@@ -53,13 +41,23 @@
       color: #E2E2E2;
       text-decoration: none;
     }
+    br {
+        margin: 0px;
+        padding: 0px;
+    }
 </style>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto:900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <div class="cCc">
-        <div class="dahianlamindakide"><p><a href="https://dahianlamindakide.ayriyazilir.com" target="_blank">a y r ı<br>yazılır</a><p></div>
-        <div class="de-ayri"><img src="./de.ayri"/></div>
-        <div class="yarraam"><p>@ebsaral</p></div>
+        <div class="content-overlay">
+            <br>
+            <div class="dahianlamindakide"><a href="https://dahianlamindakide.ayriyazilir.com" target="_blank">a y r ı<br>yazılır</a></div><br>
+            <div class="de-ayri"><img src="./de.ayri"/></div><br>
+            <div class="yarraam"><p>@ebsaral</p></div>
+        </div>
     </div> 
 </body>
 <script type="text/javascript">
@@ -74,6 +72,24 @@
         }, 
         3000
     );
-
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="jquery-psycar.js"></script>
+        <script type="application/javascript">
+            var psycar1;
+            $(function(){
+                psycar1 = $('.cCc').psycar({
+                    time_interval_ms  : 100,
+                    cSpeed            : 0.5 ,
+                    cAmplitude        : 0.008,  // 0 to 1  
+                    cDeformation      : 2,
+                    backColor         : '#FEC657',
+                    isBezier           : 'true'
+                })});
+
+            $(window).resize(function() {
+                psycar1.resize();
+            });
+
+         </script>
 </html>
