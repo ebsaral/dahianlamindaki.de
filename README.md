@@ -21,3 +21,8 @@ sudo rm -rf .
 twitter: @ebsaral
 
 this is an experimental deep project. not everybody will get it or at least everything about it.
+
+# danke
+
+- https://wavesurfer-js.org/
+- https://github.com/cadeli/psycar
