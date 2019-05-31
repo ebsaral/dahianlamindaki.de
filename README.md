@@ -34,4 +34,4 @@ this is an experimental deep project. not everybody will get it or at least ever
 - https://github.com/cadeli/psycar
 - https://www.youtube.com/watch?v=qGA5vdCKja4 (Sadri Alışık)
 - Munich
-- The woman I loved.
+- The woman I love.
