@@ -1,6 +1,12 @@
 # dahianlamindaki.de
 www.dahianlamindaki.de
 
+# how to (ab)use
+
+- hit the space bar
+- better on desktop browser
+- tested on safari, firefox, chrome. I was too lazy to download opera, sorry.
+
 To contribute:
 
 
