@@ -28,7 +28,7 @@ twitter: @ebsaral
 
 # warning
 
-this is an experimental deep project. not everybody will get it or at least everything about it. the jokes are in Turkish. some cheesy dad joke, some deep hidden meanings.
+this is an experimental deep project. not everybody will get it or at least everything about it. the jokes are in Turkish. some cheesy dad jokes, some deep hidden meanings.
 
 # danke
 
