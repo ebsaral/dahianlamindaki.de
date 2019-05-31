@@ -152,7 +152,8 @@ if(window.location.href.includes("dahianlamindaki")) {
     var wavesurfer = WaveSurfer.create({
         container: '#waveform',
         waveColor: 'violet',
-        progressColor: 'purple'
+        progressColor: 'purple',
+        loopSelection: true,
     });
     wavesurfer.load('dedeye_sahip_cikalim.mp3');
     document.body.onkeyup = function(e){
