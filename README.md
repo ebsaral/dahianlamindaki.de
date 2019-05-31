@@ -32,3 +32,6 @@ this is an experimental deep project. not everybody will get it or at least ever
 
 - https://wavesurfer-js.org/
 - https://github.com/cadeli/psycar
+- https://www.youtube.com/watch?v=qGA5vdCKja4 (Sadri Alışık)
+- Munich
+- The woman I loved.
