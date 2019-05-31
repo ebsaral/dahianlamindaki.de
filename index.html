@@ -74,10 +74,15 @@
             <div class="yarraam"><p>@ebsaral</p></div>
         </div>
     </div> 
-    <div class="ses">
-        <audio src="dedeye_sahip_cikalim.mp3" controls loop>teknolojiyi takip et dostum. browser essskki.
-        </audio>
-    <div>
+    <div id="waveform"></div>
+    <button onclick="wavesurfer.playPause()">
+      <i class="fa fa-play"></i>
+      Play
+      /
+      <i class="fa fa-pause"></i>
+      Pause
+    </button>
+    hit it 🚀
 </body>
 <script type="text/javascript">
 if(window.location.href.includes("dahianlamindaki")) {
@@ -139,5 +144,19 @@ if(window.location.href.includes("dahianlamindaki")) {
                 psycar1.resize();
             });
 
-</script>  
+</script>
+<script src="https://unpkg.com/wavesurfer.js"></script>
+<script type="text/javascript">
+    var wavesurfer = WaveSurfer.create({
+        container: '#waveform',
+        waveColor: 'violet',
+        progressColor: 'purple'
+    });
+    wavesurfer.load('dedeye_sahip_cikalim.mp3');
+    document.body.onkeyup = function(e){
+        if(e.keyCode == 32 || e.key === ' ' || e.key === 'Spacebar'){
+            wavesurfer.playPause();
+    }
+}
+</script>
 </html>
