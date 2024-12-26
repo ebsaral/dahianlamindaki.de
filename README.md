@@ -1,5 +1,6 @@
 # dahianlamindaki.de
 www.dahianlamindaki.de
+(the domain was released in 2019)
 
 # how to (ab)use
 
